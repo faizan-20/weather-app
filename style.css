@@ -1,0 +1,127 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#super {
+    background-image: url(weather-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100dvh;
+}
+
+#head {
+    margin-top: 150px;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+#search {
+    margin-top: 100px;
+}
+
+#input {
+    margin-top: 40px;
+}
+
+
+input, #search-btn {
+    padding: 2px 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 1rem;
+}
+
+#search-btn {
+    background-color: #fefae040;
+    border: none;
+    padding: 4px 12px;
+    width: 60px;
+    font-weight: 600;
+}
+
+#search-btn:hover {
+    background-color: #fefae0a6;
+    cursor: pointer;
+}
+
+input {
+    width: 120px;
+}
+
+#display-1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #264653;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#weather-icon {
+    width: 3rem;
+}
+
+#location-icon {
+    width: auto;
+    height: 2rem;
+}
+
+#condition {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+#place {
+    align-self: center;
+}
+
+#nameplace {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #213c46;
+}
+
+#country {
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.662);
+    font-weight: 550;
+}
+
+#temp {
+    margin-left: 60px;
+}
+
+#temp_c {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#feels {
+    font-size: 1.5rem;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
