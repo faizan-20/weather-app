@@ -65,4 +65,4 @@ const display = async (weatherReport) => {
     feels.textContent = "Feels like " + weatherReport.feelslike_c + "C";
 }
 
-digData("india");
+digData("bhilai");
